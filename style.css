@@ -170,3 +170,91 @@ hr {
 .footer a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 900px) {
+    .page {
+        flex-direction: column;
+        padding: 20px;
+        max-width: 100%;
+    }
+    
+    .leftside-logo {
+        margin-right: 0;
+        margin-bottom: 40px;
+        align-items: center;
+        text-align: center;
+        bottom: 0;
+    }
+    
+    .heading-logo {
+        width: 100%;
+        font-size: 24px;
+        filter: drop-shadow(0px 0px 50px white);
+    }
+    
+    .fblogo {
+        top: 0;
+        margin-left: 0;
+    }
+    
+    .rightside-login {
+        width: 100%;
+    }
+    
+    .login-box {
+        width: 100%;
+        box-shadow: 0px 1px 100px #0967ff, 0 0 1px 1px #0967ff;
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        padding: 0 10px;
+    }
+    
+    .leftside-logo {
+        min-width: auto;
+        width: 100%;
+    }
+    
+    .heading-logo {
+        font-size: 20px;
+        width: 100%;
+    }
+    
+    .fblogo img {
+        height: 80px;
+    }
+    
+    .login-box {
+        padding: 20px 12px;
+    }
+    
+    .login-box input[type="text"],
+    .login-box input[type="password"] {
+        padding: 12px 7.5px;
+        margin-bottom: 15px;
+    }
+    
+    .login-btn {
+        padding: 12px 7.5px;
+    }
+    
+    .footer {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 350px) {
+    .heading-logo {
+        font-size: 18px;
+    }
+    
+    .create-account a {
+        font-size: 16px;
+    }
+    
+    .footer {
+        font-size: 12px;
+    }
+}
