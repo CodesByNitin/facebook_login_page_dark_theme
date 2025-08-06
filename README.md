@@ -1,6 +1,6 @@
 # 📄 Facebook Login page Clone (Dark Theme)
 
-![Calculator Screenshot](./image.png)
+![Page Screenshot](./image.png)
 
 Demo/- https://facebook-login-page-lilac.vercel.app/
 
